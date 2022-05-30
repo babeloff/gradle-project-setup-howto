@@ -14,6 +14,8 @@ configurations.all {
             (it is ProjectDependency || it is ExternalModuleDependency) &&
             // Ignore dependencies to another variant of the project itself - used by test fixtures
             !(it is ProjectDependency && it.dependencyProject == project) &&
+            // Ignore 'kotlin-stdlib' dependency added by Kotlin JVM plugin
+            it.name != "kotlin-stdlib-jdk8" &&
             // Ignore the platform dependencies added in plugins
             it.name != "platform"
         }
