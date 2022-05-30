@@ -3,7 +3,7 @@ plugins {
 }
 
 application {
-    mainClass.set("org.example.product.app.Application")
+    mainClass.set("org.example.product.app.ApplicationKt")
 }
 
 dependencies {
