@@ -1,6 +1,6 @@
 plugins {
     id("war")
-    id("org.example.java")
+    id("org.example.kotlin")
 }
 
 // The war plugin used 'providedRuntime' / 'providedCompile' to resolve dependencies for packaging the WAR file
