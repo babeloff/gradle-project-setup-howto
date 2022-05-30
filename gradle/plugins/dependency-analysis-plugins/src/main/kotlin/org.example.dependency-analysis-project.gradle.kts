@@ -19,7 +19,7 @@ configurations.all {
     val configuration = this
     withDependencies {
         forEach { dependency ->
-            if (dependency is ExternalModuleDependency && !dependency.version.isNullOrEmpty()) {
+            if (dependency is ExternalModuleDependency && !dependency.version.isNullOrEmpty() && dependency.name != "kotlin-stdlib-jdk8") {
                 throw RuntimeException("""
                     ${project.name}/build.gradle.kts
                     
