@@ -12,9 +12,15 @@ dependencies {
     api(platform("org.mockito:mockito-bom:4.5.1"))
     api(platform("org.slf4j:slf4j-parent:1.7.36")) { because ("see Slf4jPlatformRule") } // Parent as Anchor for Alignment BOM
 }
-
+javaModuleDependencies {
+    moduleNameToGA.put("com.amihaiemil.eoyaml", "com.amihaiemil.web:eo-yaml")
+    moduleNameToGA.put("info.picocli", "info.picocli:picocli")
+}
 dependencies.constraints {
     javaModuleDependencies {
+        api(gav("com.amihaiemil.web:eo-yaml", "6.0.1"))
+        api(gav("info.picocli:picocli", "4.6.3"))
+
         api(gav("com.github.racc.typesafeconfigguice", "0.1.0"))
         api(gav("jakarta.activation", "1.2.2")) { version { reject("[2.0.0,)") } } // Upgrade to 2.x requires newer Jakarta APIs
         api(gav("jakarta.mail", "1.6.7")) { version { reject("[2.0.0,)") } } // Upgrade to 2.x requires newer Jakarta APIs
