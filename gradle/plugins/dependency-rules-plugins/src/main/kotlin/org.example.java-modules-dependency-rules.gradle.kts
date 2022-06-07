@@ -35,4 +35,7 @@ javaModuleDependencies {
     // Override because there are multiple options
     moduleNameToGA.put("jakarta.activation", "com.sun.activation:jakarta.activation")
     moduleNameToGA.put("jakarta.mail", "com.sun.mail:jakarta.mail")
+
+    moduleNameToGA.put("com.amihaiemil.eoyaml", "com.amihaiemil.web:eo-yaml")
+    moduleNameToGA.put("info.picocli", "info.picocli:picocli")
 }

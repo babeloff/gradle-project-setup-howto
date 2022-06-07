@@ -9,7 +9,7 @@ module org.example.product.app {
     requires org.example.product.tatooine;
 
     // https://github.com/decorators-squad/eo-yaml/blob/master/src/main/java9/module-info.java
-    requires com.amihaiemil.eoyaml;
+//    requires com.amihaiemil.eoyaml;
     requires com.google.guice;
     requires com.google.guice.extensions.servlet;
     // https://github.com/remkop/picocli/blob/main/src/main/java9/module-info.java
