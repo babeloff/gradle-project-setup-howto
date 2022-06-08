@@ -1,4 +1,4 @@
 
-git ls-files | grep 'org\.example' | sed 's/org\.example/  /' | sort -u > ./edits/org_example_files.list
+git ls-files | grep 'org\.example' | sed 's/org\.example/  /' | sort -u > ./edits/13_org_example_files.list
 
-while read pre post ; do git mv ${pre}org.example${post}  ${pre}edu.vanderbilt.isis.mesolab${post} ; done < ./edits/org_example_files.list
+while read pre post ; do git mv ${pre}org.example${post}  ${pre}edu.vanderbilt.isis.mesolab${post} ; done < ./edits/13_org_example_files.list
