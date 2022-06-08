@@ -99,7 +99,7 @@ Different structuring concerns are summarized in commits if you like to explore 
 ### Kotlin JVM projects
 - [Add Kotlin plugin and Kotlin specific compile configuration](https://github.com/jjohannes/gradle-project-setup-howto/commit/kotlin-jvm-plugin)  
   The setup is similar to the Java project, only that we add the Kotlin JVM plugin on top.
-  The plugins that were called `org.example.java` were renamed to `org.example.kotlin` (which makes no difference in the functionality).
+  The plugins that were called `edu.vanderbilt.isis.mesolab.java` were renamed to `org.example.kotlin` (which makes no difference in the functionality).
 
 ## Notes
 

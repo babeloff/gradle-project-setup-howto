@@ -1,5 +1,5 @@
 plugins {
-    id("org.example.java-library")
+    id("edu.vanderbilt.isis.mesolab.java-library")
 }
 
 dependencies {

@@ -1,8 +1,8 @@
 plugins {
     id("java")
     id("jacoco") // Record test coverage data during test execution
-    id("org.example.base")
-    id("org.example.consistent-resolution")
+    id("edu.vanderbilt.isis.mesolab.base")
+    id("edu.vanderbilt.isis.mesolab.consistent-resolution")
 }
 
 // Configure Java compilation on java {} extension or directly on 'JavaCompile' tasks

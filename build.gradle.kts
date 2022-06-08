@@ -1,3 +1,3 @@
 plugins {
-    id("org.example.root")
+    id("edu.vanderbilt.isis.mesolab.root")
 }

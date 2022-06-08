@@ -1,9 +1,9 @@
-package org.example.product.kashyyyk;
+package edu.vanderbilt.isis.mesolab.product.kashyyyk;
 
-import org.example.product.bespin.BespinModule;
-import org.example.product.kamino.KaminoModule;
-import org.example.product.naboo.NabooModule;
-import org.example.product.tatooine.TatooineModule;
+import edu.vanderbilt.isis.mesolab.product.bespin.BespinModule;
+import edu.vanderbilt.isis.mesolab.product.kamino.KaminoModule;
+import edu.vanderbilt.isis.mesolab.product.naboo.NabooModule;
+import edu.vanderbilt.isis.mesolab.product.tatooine.TatooineModule;
 
 import java.io.BufferedReader;
 import java.io.IOException;

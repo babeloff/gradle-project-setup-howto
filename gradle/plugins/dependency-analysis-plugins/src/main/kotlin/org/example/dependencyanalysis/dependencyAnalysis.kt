@@ -1,4 +1,4 @@
-package org.example.dependencyanalysis
+package edu.vanderbilt.isis.mesolab.dependencyanalysis
 
 /**
  * Configurations to ignore when analysing dependency declaration order and format.

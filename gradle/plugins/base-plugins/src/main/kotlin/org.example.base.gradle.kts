@@ -1,10 +1,10 @@
 plugins {
     id("base")
-    id("org.example.dependency-rules")
+    id("edu.vanderbilt.isis.mesolab.dependency-rules")
 }
 
 // Set the group (some components will be published)
-group = "org.example.product"
+group = "edu.vanderbilt.isis.mesolab.product"
 
 // Set the version from 'version.txt'
 version = providers.fileContents(

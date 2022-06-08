@@ -1,5 +1,5 @@
-module org.example.product.corellia {
-    exports org.example.product.corellia;
+module edu.vanderbilt.isis.mesolab.product.corellia {
+    exports edu.vanderbilt.isis.mesolab.product.corellia;
 
     requires transitive org.apache.poi.poi;
 

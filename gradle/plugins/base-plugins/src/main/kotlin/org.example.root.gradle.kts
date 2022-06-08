@@ -1,5 +1,5 @@
 plugins {
-    id("org.example.dependency-analysis-root")
+    id("edu.vanderbilt.isis.mesolab.dependency-analysis-root")
 }
 
 // Configure the ':tasks' task of the root project to only show

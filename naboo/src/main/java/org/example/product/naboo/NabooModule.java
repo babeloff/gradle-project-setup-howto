@@ -1,4 +1,4 @@
-package org.example.product.naboo;
+package edu.vanderbilt.isis.mesolab.product.naboo;
 
 import org.apache.jute.Utils;
 import org.apache.solr.common.params.MapSolrParams;

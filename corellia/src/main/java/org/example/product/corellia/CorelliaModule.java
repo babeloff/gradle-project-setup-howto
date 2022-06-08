@@ -1,4 +1,4 @@
-package org.example.product.corellia;
+package edu.vanderbilt.isis.mesolab.product.corellia;
 
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ooxml.POIXMLDocument;

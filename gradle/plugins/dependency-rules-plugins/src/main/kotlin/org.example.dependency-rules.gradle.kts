@@ -1,15 +1,15 @@
-import org.example.metadatarules.fixdependencies.TypesafeConfigGuiceRule
-import org.example.metadatarules.status.ComponentStatusRule
-import org.example.metadatarules.versionalignment.HttpComponentsPlatformRule
-import org.example.metadatarules.versionalignment.PoiPlatformRule
-import org.example.metadatarules.versionalignment.Slf4jPlatformRule
-import org.example.metadatarules.versionalignment.ParentPomAsPlatformRule
+import edu.vanderbilt.isis.mesolab.metadatarules.fixdependencies.TypesafeConfigGuiceRule
+import edu.vanderbilt.isis.mesolab.metadatarules.status.ComponentStatusRule
+import edu.vanderbilt.isis.mesolab.metadatarules.versionalignment.HttpComponentsPlatformRule
+import edu.vanderbilt.isis.mesolab.metadatarules.versionalignment.PoiPlatformRule
+import edu.vanderbilt.isis.mesolab.metadatarules.versionalignment.Slf4jPlatformRule
+import edu.vanderbilt.isis.mesolab.metadatarules.versionalignment.ParentPomAsPlatformRule
 
 plugins {
     id("de.jjohannes.java-ecosystem-capabilities")
     id("de.jjohannes.missing-metadata-guava")
     id("dev.jacomet.logging-capabilities")
-    id("org.example.java-modules-dependency-rules")
+    id("edu.vanderbilt.isis.mesolab.java-modules-dependency-rules")
 }
 
 // Configure logging capabilities plugin to default to Slf4JSimple

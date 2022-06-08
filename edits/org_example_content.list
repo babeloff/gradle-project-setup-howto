@@ -30,9 +30,6 @@ coruscant/src/main/java/org/example/product/coruscant/CoruscantModule.java
 coruscant/src/main/java/org/example/product/coruscant/CoruscantModuleData.java
 coruscant/src/test/java/module-info.java
 coruscant/src/test/java/org/example/product/coruscant/test/CoruscantModuleTest.java
-edits/01_change_group.sh
-edits/02_mkdirs.sh
-edits/03_rename_files.sh
 gradle/platform/build.gradle.kts
 gradle/platform/settings.gradle.kts
 gradle/plugins/application-plugins/src/main/kotlin/org.example.application.gradle.kts

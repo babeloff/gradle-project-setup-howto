@@ -1,5 +1,5 @@
 plugins {
-    id("org.example.platform")
+    id("edu.vanderbilt.isis.mesolab.platform")
 }
 
 dependencies {

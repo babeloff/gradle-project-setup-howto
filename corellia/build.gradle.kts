@@ -1,3 +1,3 @@
 plugins {
-    id("org.example.java-library-with-test-fixtures")
+    id("edu.vanderbilt.isis.mesolab.java-library-with-test-fixtures")
 }

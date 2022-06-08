@@ -1,3 +1,3 @@
 plugins {
-    id("org.example.java-library-published")
+    id("edu.vanderbilt.isis.mesolab.java-library-published")
 }

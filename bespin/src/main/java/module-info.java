@@ -1,8 +1,8 @@
-module org.example.product.bespin {
-    exports org.example.product.bespin;
+module edu.vanderbilt.isis.mesolab.product.bespin {
+    exports edu.vanderbilt.isis.mesolab.product.bespin;
 
-    requires transitive org.example.product.corellia;
+    requires transitive edu.vanderbilt.isis.mesolab.product.corellia;
 
-    requires org.example.product.coruscant;
+    requires edu.vanderbilt.isis.mesolab.product.coruscant;
     requires velocity.engine.core;
 }

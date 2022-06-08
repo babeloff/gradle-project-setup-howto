@@ -1,10 +1,10 @@
 plugins {
-    id("org.example.application")
+    id("edu.vanderbilt.isis.mesolab.application")
 }
 
 application {
-    mainModule.set("org.example.product.app")
-    mainClass.set("org.example.product.app.Application")
+    mainModule.set("edu.vanderbilt.isis.mesolab.product.app")
+    mainClass.set("edu.vanderbilt.isis.mesolab.product.app.Application")
 }
 
 dependencies {

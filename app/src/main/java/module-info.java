@@ -1,12 +1,12 @@
-module org.example.product.app {
-    exports org.example.product.app;
+module edu.vanderbilt.isis.mesolab.product.app {
+    exports edu.vanderbilt.isis.mesolab.product.app;
 
-    requires org.example.product.bespin;
-    requires org.example.product.corellia;
-    requires org.example.product.kamino;
-    requires org.example.product.kashyyyk;
-    requires org.example.product.naboo;
-    requires org.example.product.tatooine;
+    requires edu.vanderbilt.isis.mesolab.product.bespin;
+    requires edu.vanderbilt.isis.mesolab.product.corellia;
+    requires edu.vanderbilt.isis.mesolab.product.kamino;
+    requires edu.vanderbilt.isis.mesolab.product.kashyyyk;
+    requires edu.vanderbilt.isis.mesolab.product.naboo;
+    requires edu.vanderbilt.isis.mesolab.product.tatooine;
 
     // https://github.com/decorators-squad/eo-yaml/blob/master/src/main/java9/module-info.java
 //    requires com.amihaiemil.eoyaml;

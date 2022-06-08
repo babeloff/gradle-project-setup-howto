@@ -1,4 +1,4 @@
-open module org.example.product.app.end.to.end.test {
-    requires org.example.product.app.mock.api;
+open module edu.vanderbilt.isis.mesolab.product.app.end.to.end.test {
+    requires edu.vanderbilt.isis.mesolab.product.app.mock.api;
     requires org.junit.jupiter.api;
 }

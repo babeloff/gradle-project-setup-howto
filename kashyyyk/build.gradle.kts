@@ -1,3 +1,3 @@
 plugins {
-    id("org.example.java-library-with-whitebox-tests")
+    id("edu.vanderbilt.isis.mesolab.java-library-with-whitebox-tests")
 }

@@ -1,4 +1,4 @@
-package org.example.metadatarules.versionalignment
+package edu.vanderbilt.isis.mesolab.metadatarules.versionalignment
 
 import org.gradle.api.artifacts.CacheableRule
 import org.gradle.api.artifacts.ComponentMetadataContext

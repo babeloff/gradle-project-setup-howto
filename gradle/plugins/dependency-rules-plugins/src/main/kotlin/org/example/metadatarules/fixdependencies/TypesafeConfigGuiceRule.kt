@@ -1,4 +1,4 @@
-package org.example.metadatarules.fixdependencies
+package edu.vanderbilt.isis.mesolab.metadatarules.fixdependencies
 
 import org.gradle.api.artifacts.CacheableRule
 import org.gradle.api.artifacts.ComponentMetadataContext

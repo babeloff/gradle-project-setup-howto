@@ -2,7 +2,7 @@ import com.autonomousapps.AbstractPostProcessingTask
 import com.autonomousapps.DependencyAnalysisSubExtension
 import com.autonomousapps.model.Advice
 import com.autonomousapps.model.ProjectCoordinates
-import org.example.dependencyanalysis.configurationPrefixesToSkip
+import edu.vanderbilt.isis.mesolab.dependencyanalysis.configurationPrefixesToSkip
 
 plugins {
     id("base")

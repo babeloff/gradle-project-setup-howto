@@ -1,4 +1,4 @@
-package org.example.product.tatooine;
+package edu.vanderbilt.isis.mesolab.product.tatooine;
 
 import org.apache.zookeeper.ZooKeeper;
 

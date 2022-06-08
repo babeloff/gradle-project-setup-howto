@@ -1,7 +1,7 @@
-package org.example.product.app.endtoend;
+package edu.vanderbilt.isis.mesolab.product.app.endtoend;
 
 import com.google.common.collect.ImmutableList;
-import org.example.product.app.mock.api.MockServer;
+import edu.vanderbilt.isis.mesolab.product.app.mock.api.MockServer;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 

@@ -1,6 +1,6 @@
-module org.example.product.app.mock.api {
-    exports org.example.product.app.mock.api;
+module edu.vanderbilt.isis.mesolab.product.app.mock.api {
+    exports edu.vanderbilt.isis.mesolab.product.app.mock.api;
     requires transitive com.google.common;
 
-    requires org.example.product.app;
+    requires edu.vanderbilt.isis.mesolab.product.app;
 }

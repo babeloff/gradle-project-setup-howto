@@ -1,9 +1,9 @@
-module org.example.product.kashyyyk {
-    exports org.example.product.kashyyyk;
+module edu.vanderbilt.isis.mesolab.product.kashyyyk {
+    exports edu.vanderbilt.isis.mesolab.product.kashyyyk;
 
-    requires transitive org.example.product.naboo;
-    requires transitive org.example.product.tatooine;
+    requires transitive edu.vanderbilt.isis.mesolab.product.naboo;
+    requires transitive edu.vanderbilt.isis.mesolab.product.tatooine;
 
-    requires org.example.product.bespin;
-    requires org.example.product.kamino;
+    requires edu.vanderbilt.isis.mesolab.product.bespin;
+    requires edu.vanderbilt.isis.mesolab.product.kamino;
 }

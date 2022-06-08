@@ -1,7 +1,7 @@
-module org.example.product.corellia.test.fixtures {
-    exports org.example.product.corellia.fixtures;
+module edu.vanderbilt.isis.mesolab.product.corellia.test.fixtures {
+    exports edu.vanderbilt.isis.mesolab.product.corellia.fixtures;
 
-    requires transitive org.example.product.corellia;
+    requires transitive edu.vanderbilt.isis.mesolab.product.corellia;
     requires transitive com.google.common;
     requires transitive javax.annotations.jsr305;
 

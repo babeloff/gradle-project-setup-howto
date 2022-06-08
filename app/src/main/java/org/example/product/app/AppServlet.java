@@ -1,4 +1,4 @@
-package org.example.product.app;
+package edu.vanderbilt.isis.mesolab.product.app;
 
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;

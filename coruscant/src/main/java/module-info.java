@@ -1,5 +1,5 @@
-module org.example.product.coruscant {
-    exports org.example.product.coruscant;
+module edu.vanderbilt.isis.mesolab.product.coruscant {
+    exports edu.vanderbilt.isis.mesolab.product.coruscant;
 
     requires transitive com.fasterxml.jackson.annotation;
     requires transitive com.fasterxml.jackson.databind;

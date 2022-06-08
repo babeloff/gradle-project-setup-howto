@@ -1,6 +1,6 @@
 plugins {
     id("maven-publish")
-    id("org.example.java-library")
+    id("edu.vanderbilt.isis.mesolab.java-library")
 }
 
 // Publish with sources and Javadoc

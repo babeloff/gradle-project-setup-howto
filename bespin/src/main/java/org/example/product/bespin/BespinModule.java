@@ -1,7 +1,7 @@
-package org.example.product.bespin;
+package edu.vanderbilt.isis.mesolab.product.bespin;
 
-import org.example.product.corellia.CorelliaModule;
-import org.example.product.coruscant.CoruscantModule;
+import edu.vanderbilt.isis.mesolab.product.corellia.CorelliaModule;
+import edu.vanderbilt.isis.mesolab.product.coruscant.CoruscantModule;
 import org.apache.velocity.io.VelocityWriter;
 
 import java.io.FileWriter;

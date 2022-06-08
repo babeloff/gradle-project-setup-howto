@@ -1,12 +1,12 @@
-import org.example.application.tasks.MD5DirectoryChecksum
-import org.example.application.tasks.VersionXml
+import edu.vanderbilt.isis.mesolab.application.tasks.MD5DirectoryChecksum
+import edu.vanderbilt.isis.mesolab.application.tasks.VersionXml
 
 plugins {
     id("application")               // For stand-alone application packaging
     id("jacoco-report-aggregation") // get and aggregated coverage report for all tests
     id("test-report-aggregation")   // get and aggregated result report for all tests
-    id("org.example.war")           // For web application packaging/deployment
-    id("org.example.end2end-testing")
+    id("edu.vanderbilt.isis.mesolab.war")           // For web application packaging/deployment
+    id("edu.vanderbilt.isis.mesolab.end2end-testing")
 }
 
 configurations.allCodeCoverageReportClassDirectories {

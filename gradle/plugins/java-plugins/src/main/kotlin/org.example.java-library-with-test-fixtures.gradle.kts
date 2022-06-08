@@ -1,4 +1,4 @@
 plugins {
-    id("org.example.java-library")
+    id("edu.vanderbilt.isis.mesolab.java-library")
     id("java-test-fixtures")
 }

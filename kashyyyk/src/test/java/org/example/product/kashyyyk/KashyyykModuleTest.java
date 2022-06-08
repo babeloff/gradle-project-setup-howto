@@ -1,4 +1,4 @@
-package org.example.product.kashyyyk;
+package edu.vanderbilt.isis.mesolab.product.kashyyyk;
 
 import org.junit.jupiter.api.Test;
 

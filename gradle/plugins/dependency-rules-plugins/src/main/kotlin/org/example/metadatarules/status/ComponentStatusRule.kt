@@ -1,4 +1,4 @@
-package org.example.metadatarules.status
+package edu.vanderbilt.isis.mesolab.metadatarules.status
 
 import org.gradle.api.artifacts.CacheableRule
 import org.gradle.api.artifacts.ComponentMetadataContext

@@ -2,7 +2,7 @@ pluginManagement {
     includeBuild("../settings")
 }
 plugins {
-    id("org.example.settings")
+    id("edu.vanderbilt.isis.mesolab.settings")
 }
 
 dependencyResolutionManagement {

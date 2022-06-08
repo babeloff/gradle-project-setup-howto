@@ -1,4 +1,4 @@
-package org.example.product.naboo.test;
+package edu.vanderbilt.isis.mesolab.product.naboo.test;
 
 import org.junit.Test;
 

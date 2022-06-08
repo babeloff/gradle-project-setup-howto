@@ -1,4 +1,4 @@
-package org.example.product.coruscant;
+package edu.vanderbilt.isis.mesolab.product.coruscant;
 
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.core.JsonParser.Feature;

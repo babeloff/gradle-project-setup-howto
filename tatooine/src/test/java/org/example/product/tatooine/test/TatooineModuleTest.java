@@ -1,4 +1,4 @@
-package org.example.product.tatooine.test;
+package edu.vanderbilt.isis.mesolab.product.tatooine.test;
 
 import org.junit.Test;
 

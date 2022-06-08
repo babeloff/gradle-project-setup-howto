@@ -1,8 +1,8 @@
-package org.example.product.corellia.fixtures;
+package edu.vanderbilt.isis.mesolab.product.corellia.fixtures;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.io.ByteProcessor;
-import org.example.product.corellia.CorelliaModule;
+import edu.vanderbilt.isis.mesolab.product.corellia.CorelliaModule;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
