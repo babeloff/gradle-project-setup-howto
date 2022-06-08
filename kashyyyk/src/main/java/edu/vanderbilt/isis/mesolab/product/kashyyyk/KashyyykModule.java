@@ -1,9 +1,9 @@
-package edu.vanderbilt.isis.mesolab.product.kashyyyk;
+package edu.vanderbilt.isis.mesolab.symcps.kashyyyk;
 
-import edu.vanderbilt.isis.mesolab.product.bespin.BespinModule;
-import edu.vanderbilt.isis.mesolab.product.kamino.KaminoModule;
-import edu.vanderbilt.isis.mesolab.product.naboo.NabooModule;
-import edu.vanderbilt.isis.mesolab.product.tatooine.TatooineModule;
+import edu.vanderbilt.isis.mesolab.symcps.bespin.BespinModule;
+import edu.vanderbilt.isis.mesolab.symcps.kamino.KaminoModule;
+import edu.vanderbilt.isis.mesolab.symcps.naboo.NabooModule;
+import edu.vanderbilt.isis.mesolab.symcps.tatooine.TatooineModule;
 
 import java.io.BufferedReader;
 import java.io.IOException;

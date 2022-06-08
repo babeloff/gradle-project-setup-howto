@@ -1,6 +1,6 @@
-package edu.vanderbilt.isis.mesolab.product.kamino;
+package edu.vanderbilt.isis.mesolab.symcps.kamino;
 
-import edu.vanderbilt.isis.mesolab.product.coruscant.CoruscantModuleData;
+import edu.vanderbilt.isis.mesolab.symcps.coruscant.CoruscantModuleData;
 import org.jboss.resteasy.plugins.guice.GuiceResteasyBootstrapServletContextListener;
 import org.jboss.resteasy.plugins.providers.jackson.ResteasyJackson2Provider;
 import org.jboss.resteasy.plugins.server.servlet.ResteasyBootstrap;

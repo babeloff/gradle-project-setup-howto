@@ -1,4 +1,4 @@
-package edu.vanderbilt.isis.mesolab.product.app.test;
+package edu.vanderbilt.isis.mesolab.symcps.app.test;
 
 import org.junit.jupiter.api.Test;
 

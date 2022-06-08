@@ -1,9 +1,9 @@
-module edu.vanderbilt.isis.mesolab.product.kashyyyk {
-    exports edu.vanderbilt.isis.mesolab.product.kashyyyk;
+module edu.vanderbilt.isis.mesolab.symcps.kashyyyk {
+    exports edu.vanderbilt.isis.mesolab.symcps.kashyyyk;
 
-    requires transitive edu.vanderbilt.isis.mesolab.product.naboo;
-    requires transitive edu.vanderbilt.isis.mesolab.product.tatooine;
+    requires transitive edu.vanderbilt.isis.mesolab.symcps.naboo;
+    requires transitive edu.vanderbilt.isis.mesolab.symcps.tatooine;
 
-    requires edu.vanderbilt.isis.mesolab.product.bespin;
-    requires edu.vanderbilt.isis.mesolab.product.kamino;
+    requires edu.vanderbilt.isis.mesolab.symcps.bespin;
+    requires edu.vanderbilt.isis.mesolab.symcps.kamino;
 }

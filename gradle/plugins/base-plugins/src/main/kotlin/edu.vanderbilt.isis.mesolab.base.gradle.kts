@@ -4,7 +4,7 @@ plugins {
 }
 
 // Set the group (some components will be published)
-group = "edu.vanderbilt.isis.mesolab.product"
+group = "edu.vanderbilt.isis.mesolab.symcps"
 
 // Set the version from 'version.txt'
 version = providers.fileContents(

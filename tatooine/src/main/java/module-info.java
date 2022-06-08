@@ -1,5 +1,5 @@
-module edu.vanderbilt.isis.mesolab.product.tatooine {
-    exports edu.vanderbilt.isis.mesolab.product.tatooine;
+module edu.vanderbilt.isis.mesolab.symcps.tatooine {
+    exports edu.vanderbilt.isis.mesolab.symcps.tatooine;
     requires transitive com.github.racc.typesafeconfigguice;
 
     requires org.apache.zookeeper;

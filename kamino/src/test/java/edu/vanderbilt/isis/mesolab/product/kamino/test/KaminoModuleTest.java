@@ -1,4 +1,4 @@
-package edu.vanderbilt.isis.mesolab.product.kamino.test;
+package edu.vanderbilt.isis.mesolab.symcps.kamino.test;
 
 import org.junit.jupiter.api.Test;
 

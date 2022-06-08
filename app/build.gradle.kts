@@ -3,8 +3,8 @@ plugins {
 }
 
 application {
-    mainModule.set("edu.vanderbilt.isis.mesolab.product.app")
-    mainClass.set("edu.vanderbilt.isis.mesolab.product.app.Application")
+    mainModule.set("edu.vanderbilt.isis.mesolab.symcps.app")
+    mainClass.set("edu.vanderbilt.isis.mesolab.symcps.app.Application")
 }
 
 dependencies {

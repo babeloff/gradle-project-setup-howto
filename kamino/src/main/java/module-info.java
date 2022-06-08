@@ -1,6 +1,6 @@
-module edu.vanderbilt.isis.mesolab.product.kamino {
-    exports edu.vanderbilt.isis.mesolab.product.kamino;
-    requires transitive edu.vanderbilt.isis.mesolab.product.coruscant;
+module edu.vanderbilt.isis.mesolab.symcps.kamino {
+    exports edu.vanderbilt.isis.mesolab.symcps.kamino;
+    requires transitive edu.vanderbilt.isis.mesolab.symcps.coruscant;
     requires transitive org.jboss.resteasy.core;
 
     requires org.jboss.resteasy.guice;

@@ -1,7 +1,7 @@
-package edu.vanderbilt.isis.mesolab.product.app.mock.api;
+package edu.vanderbilt.isis.mesolab.symcps.app.mock.api;
 
 import com.google.common.collect.ImmutableList;
-import edu.vanderbilt.isis.mesolab.product.app.MainModule;
+import edu.vanderbilt.isis.mesolab.symcps.app.MainModule;
 
 public class MockServer {
 

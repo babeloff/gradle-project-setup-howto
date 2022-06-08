@@ -17,7 +17,7 @@ val appRuntimeClasspath = configurations.create("appRuntimeClasspath") {
         // Depend on ':app' and with this on all its (transitive) dependencies
         add(project.dependencies.create(project(":app")))
         // Get our own version information from the platform project
-        add(project.dependencies.create(project.dependencies.platform("edu.vanderbilt.isis.mesolab.product:platform")))
+        add(project.dependencies.create(project.dependencies.platform("edu.vanderbilt.isis.mesolab.symcps:platform")))
     }
 }
 
@@ -28,7 +28,7 @@ sourceSets.all {
     // Source sets without production code (tests / fixtures) are allowed to have dependencies that are
     // not part of the consistent resolution result and might need additional version information
     if (this != sourceSets.main.get()) {
-        dependencies.add(implementationConfigurationName, dependencies.platform("edu.vanderbilt.isis.mesolab.product:platform"))
+        dependencies.add(implementationConfigurationName, dependencies.platform("edu.vanderbilt.isis.mesolab.symcps:platform"))
     }
 }
 

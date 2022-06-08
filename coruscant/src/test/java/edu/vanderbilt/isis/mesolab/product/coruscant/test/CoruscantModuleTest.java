@@ -1,6 +1,6 @@
-package edu.vanderbilt.isis.mesolab.product.coruscant.test;
+package edu.vanderbilt.isis.mesolab.symcps.coruscant.test;
 
-import edu.vanderbilt.isis.mesolab.product.coruscant.CoruscantModule;
+import edu.vanderbilt.isis.mesolab.symcps.coruscant.CoruscantModule;
 import org.junit.jupiter.api.Test;
 
 import java.io.BufferedReader;

@@ -1,11 +1,10 @@
-README.md
 app/build.gradle.kts
 app/src/endToEndTest/java/module-info.java
 app/src/endToEndTest/java/org/example/product/app/endtoend/SystemQuickTest.java
 app/src/endToEndTest/java/org/example/product/app/endtoend/SystemTest.java
 app/src/main/java/module-info.java
-app/src/main/java/org/example/product/app/AppServlet.java
 app/src/main/java/org/example/product/app/Application.java
+app/src/main/java/org/example/product/app/AppServlet.java
 app/src/main/java/org/example/product/app/MainModule.java
 app/src/mockApi/java/module-info.java
 app/src/mockApi/java/org/example/product/app/mock/api/MockServer.java
@@ -70,6 +69,7 @@ naboo/src/main/java/org/example/product/naboo/NabooModule.java
 naboo/src/test/java/module-info.java
 naboo/src/test/java/org/example/product/naboo/test/NabooModuleTest.java
 naboo/src/test/java/org/example/product/naboo/test/OldNabooModuleTest.java
+README.md
 settings.gradle.kts
 tatooine/build.gradle.kts
 tatooine/src/main/java/module-info.java

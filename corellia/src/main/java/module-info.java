@@ -1,5 +1,5 @@
-module edu.vanderbilt.isis.mesolab.product.corellia {
-    exports edu.vanderbilt.isis.mesolab.product.corellia;
+module edu.vanderbilt.isis.mesolab.symcps.corellia {
+    exports edu.vanderbilt.isis.mesolab.symcps.corellia;
 
     requires transitive org.apache.poi.poi;
 

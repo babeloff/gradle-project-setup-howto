@@ -1,4 +1,4 @@
-package edu.vanderbilt.isis.mesolab.product.coruscant;
+package edu.vanderbilt.isis.mesolab.symcps.coruscant;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

@@ -1,4 +1,4 @@
-package edu.vanderbilt.isis.mesolab.product.kashyyyk;
+package edu.vanderbilt.isis.mesolab.symcps.kashyyyk;
 
 import org.junit.jupiter.api.Test;
 

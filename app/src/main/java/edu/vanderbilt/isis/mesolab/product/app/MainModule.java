@@ -1,12 +1,12 @@
-package edu.vanderbilt.isis.mesolab.product.app;
+package edu.vanderbilt.isis.mesolab.symcps.app;
 
 import com.google.inject.Guice;
 import com.google.inject.servlet.SessionScoped;
-import edu.vanderbilt.isis.mesolab.product.bespin.BespinModule;
-import edu.vanderbilt.isis.mesolab.product.kamino.KaminoModule;
-import edu.vanderbilt.isis.mesolab.product.kashyyyk.KashyyykModule;
-import edu.vanderbilt.isis.mesolab.product.naboo.NabooModule;
-import edu.vanderbilt.isis.mesolab.product.tatooine.TatooineModule;
+import edu.vanderbilt.isis.mesolab.symcps.bespin.BespinModule;
+import edu.vanderbilt.isis.mesolab.symcps.kamino.KaminoModule;
+import edu.vanderbilt.isis.mesolab.symcps.kashyyyk.KashyyykModule;
+import edu.vanderbilt.isis.mesolab.symcps.naboo.NabooModule;
+import edu.vanderbilt.isis.mesolab.symcps.tatooine.TatooineModule;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

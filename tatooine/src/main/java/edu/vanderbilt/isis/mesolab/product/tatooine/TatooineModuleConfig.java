@@ -1,4 +1,4 @@
-package edu.vanderbilt.isis.mesolab.product.tatooine;
+package edu.vanderbilt.isis.mesolab.symcps.tatooine;
 
 import com.github.racc.tscg.TypesafeConfig;
 

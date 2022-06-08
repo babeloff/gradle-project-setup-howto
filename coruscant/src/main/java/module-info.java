@@ -1,5 +1,5 @@
-module edu.vanderbilt.isis.mesolab.product.coruscant {
-    exports edu.vanderbilt.isis.mesolab.product.coruscant;
+module edu.vanderbilt.isis.mesolab.symcps.coruscant {
+    exports edu.vanderbilt.isis.mesolab.symcps.coruscant;
 
     requires transitive com.fasterxml.jackson.annotation;
     requires transitive com.fasterxml.jackson.databind;

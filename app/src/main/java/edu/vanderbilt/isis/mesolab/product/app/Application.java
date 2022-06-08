@@ -1,4 +1,4 @@
-package edu.vanderbilt.isis.mesolab.product.app;
+package edu.vanderbilt.isis.mesolab.symcps.app;
 
 import java.io.File;
 import java.io.IOException;
